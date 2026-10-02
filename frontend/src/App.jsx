@@ -1,10 +1,23 @@
 import React from 'react'
+
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <h1>Mintsite</h1>
+
+      <p>Turn thoughts into websites.</p>
+
+      <textarea
+        placeholder="Apni website ka idea likho..."
+        rows="5"
+        cols="40"
+      ></textarea>
+
+      <br /><br />
+
+      <button>
+        Generate Website
+      </button>
     </div>
   )
 }
